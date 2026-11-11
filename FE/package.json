@@ -1,0 +1,15 @@
+{
+  "name": "saree-store-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend workspace root for Saree Store",
+  "workspaces": [
+    "saree-store"
+  ],
+  "scripts": {
+    "start": "npm start --workspace saree-store",
+    "build": "npm run build --workspace saree-store",
+    "test": "npm test --workspace saree-store -- --watch=false",
+    "ng": "npm run ng --workspace saree-store --"
+  }
+}
